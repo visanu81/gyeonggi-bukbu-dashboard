@@ -688,13 +688,16 @@ def fetch_fire():
 # ============================================================
 
 # 경기북부 주요 관측소 — 한강홍수통제소 실제 등록 코드 및 기준수위
+# has_cctv: CCTV iframe 표시 여부 (False 시 자료 페이지 링크)
+# api: 'waterlevel' (일반 하천) 또는 'dam' (댐 시설 — 저수위·저수율·유입·방류)
 RIVER_STATIONS = [
-    {'code': '1022668', 'name': '신천 (동두천 송천교)',   'warning': 3.4,  'danger': 5.0},
-    {'code': '1022670', 'name': '신천 (연천)',           'warning': 3.5,  'danger': 5.5},
-    {'code': '1021680', 'name': '임진강 (연천 임진교)',   'warning': 5.9,  'danger': 10.8},
-    {'code': '1022640', 'name': '한탄강 (포천 용담교)',   'warning': 9.5,  'danger': 18.0},
-    {'code': '1018638', 'name': '왕숙천 (남양주 왕숙교)', 'warning': 4.9,  'danger': 8.0},
-    {'code': '1018665', 'name': '중랑천 (의정부 신곡교)', 'warning': 2.6,  'danger': 6.0},
+    {'code': '1022668', 'name': '신천 (동두천 송천교)',   'warning': 3.4,  'danger': 5.0,  'has_cctv': True,  'api': 'waterlevel'},
+    {'code': '1021701', 'name': '임진강 (군남댐)',        'warning': 31.5, 'danger': 35.0, 'has_cctv': False, 'api': 'dam'},
+    {'code': '1022670', 'name': '신천 (연천)',           'warning': 3.5,  'danger': 5.5,  'has_cctv': True,  'api': 'waterlevel'},
+    {'code': '1021680', 'name': '임진강 (연천 임진교)',   'warning': 5.9,  'danger': 10.8, 'has_cctv': True,  'api': 'waterlevel'},
+    {'code': '1022640', 'name': '한탄강 (포천 용담교)',   'warning': 9.5,  'danger': 18.0, 'has_cctv': True,  'api': 'waterlevel'},
+    {'code': '1018638', 'name': '왕숙천 (남양주 왕숙교)', 'warning': 4.9,  'danger': 8.0,  'has_cctv': True,  'api': 'waterlevel'},
+    {'code': '1018665', 'name': '중랑천 (의정부 신곡교)', 'warning': 2.6,  'danger': 6.0,  'has_cctv': True,  'api': 'waterlevel'},
 ]
 
 
@@ -708,9 +711,12 @@ def fetch_rivers():
     sess = requests.Session()
     for st in RIVER_STATIONS:
         last_err = None
+        api = st.get('api', 'waterlevel')
+        wl_field = 'swl' if api == 'dam' else 'wl'  # 댐은 저수위(swl), 하천은 수위(wl)
+
         for attempt in range(3):
             try:
-                url = f'http://api.hrfco.go.kr/{HRFCO_KEY}/waterlevel/list/1H/{st["code"]}/{sdt}/{edt}.json'
+                url = f'http://api.hrfco.go.kr/{HRFCO_KEY}/{api}/list/1H/{st["code"]}/{sdt}/{edt}.json'
                 r = sess.get(url, timeout=20)
                 r.raise_for_status()
                 content = r.json().get('content', [])
@@ -719,9 +725,10 @@ def fetch_rivers():
 
                 # 시계열 history 구성 (시간 오름차순으로 정렬)
                 history = []
+                dam_info_latest = None
                 for entry in content:
-                    v = entry.get('wl', '')
-                    if v in ('', None):
+                    v = entry.get(wl_field, '')
+                    if v in ('', None) or str(v).strip() == '':
                         continue
                     try:
                         vf = float(v)
@@ -729,31 +736,47 @@ def fetch_rivers():
                         continue
                     ymdhm = str(entry.get('ymdhm', ''))
                     history.append({'time': ymdhm, 'value': vf})
+                    # 댐이면 추가 필드도 같이
+                    if api == 'dam':
+                        def safe_f(k):
+                            x = entry.get(k, '')
+                            try: return float(x)
+                            except: return None
+                        dam_info_latest = {
+                            'storage_rate': safe_f('ecpc'),   # 저수율 %
+                            'inflow': safe_f('inf'),          # 유입량 m³/s
+                            'outflow': safe_f('sfw'),         # 방류량 m³/s
+                            'total_outflow': safe_f('tototf'),# 총유출량
+                        }
 
                 if not history:
                     break
-                history.sort(key=lambda h: h['time'])  # 오래된 순 → 최신 순
+                history.sort(key=lambda h: h['time'])
                 latest = history[-1]['value']
                 if latest >= st['danger']:    level = 'danger'
                 elif latest >= st['warning']: level = 'warning'
                 else:                          level = 'safe'
 
-                # 변화량 (최근 1시간 / 최근 3시간)
                 def delta(hours_ago):
                     if len(history) < hours_ago + 1: return None
                     return round(latest - history[-(hours_ago + 1)]['value'], 2)
 
-                result.append({
+                item = {
                     'name': st['name'],
                     'code': st['code'],
                     'value': latest,
                     'warning': st['warning'],
                     'danger': st['danger'],
                     'level': level,
-                    'history': history[-24:],   # 최근 24개 시간(시간당 1포인트)
+                    'history': history[-24:],
                     'delta_1h': delta(1),
                     'delta_3h': delta(3),
-                })
+                    'has_cctv': st.get('has_cctv', True),
+                    'api': api,
+                }
+                if api == 'dam' and dam_info_latest:
+                    item['dam_info'] = dam_info_latest
+                result.append(item)
                 break
             except Exception as e:
                 last_err = e
