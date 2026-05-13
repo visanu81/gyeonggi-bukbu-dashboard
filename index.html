@@ -2222,16 +2222,46 @@ function openRiverModal(river) {
   const d1 = deltaIcon(river.delta_1h);
   const d3 = deltaIcon(river.delta_3h);
 
+  const isDam = river.api === 'dam';
   document.getElementById('riverModalTitle').textContent = river.name;
   document.getElementById('riverModalSubtitle').textContent =
-    `한강홍수통제소 관측소 ${river.code} · 최근 24시간 시간당 데이터`;
+    `한강홍수통제소 ${isDam ? '댐 관측소' : '수위 관측소'} ${river.code} · 최근 24시간 시간당 데이터`;
+
+  // 댐일 때 별도 정보 카드
+  const dam = river.dam_info;
+  const damCards = (isDam && dam) ? `
+    <div class="modal-section" style="margin-bottom:14px;background:linear-gradient(135deg, var(--bg-card-2), var(--highlight-bg));border-color:var(--accent);">
+      <div class="modal-section-title">댐 운영 현황</div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:8px;">
+        <div class="river-stat-card" style="flex-direction:column;align-items:flex-start;">
+          <span class="label">저수율</span>
+          <span class="val" style="font-size:22px;color:${(dam.storage_rate||0)>=80?'var(--warning)':'var(--accent)'};">${dam.storage_rate != null ? dam.storage_rate.toFixed(1) + '%' : '-'}</span>
+        </div>
+        <div class="river-stat-card" style="flex-direction:column;align-items:flex-start;">
+          <span class="label">유입량</span>
+          <span class="val" style="font-size:18px;">${dam.inflow != null ? dam.inflow.toFixed(1) : '-'}<span style="font-size:10px;color:var(--text-dim);"> m³/s</span></span>
+        </div>
+        <div class="river-stat-card" style="flex-direction:column;align-items:flex-start;">
+          <span class="label">방류량</span>
+          <span class="val" style="font-size:18px;color:${(dam.outflow||0)>10?'var(--warning)':((dam.outflow||0)>50?'var(--danger)':'var(--text)')};">${dam.outflow != null ? dam.outflow.toFixed(1) : '-'}<span style="font-size:10px;color:var(--text-dim);"> m³/s</span></span>
+        </div>
+        <div class="river-stat-card" style="flex-direction:column;align-items:flex-start;">
+          <span class="label">총 유출량</span>
+          <span class="val" style="font-size:18px;">${dam.total_outflow != null ? dam.total_outflow.toFixed(1) : '-'}<span style="font-size:10px;color:var(--text-dim);"> m³/s</span></span>
+        </div>
+      </div>
+      <div style="margin-top:10px;font-size:11px;color:var(--text-sub);">
+        ※ 방류량이 평상시(<10 m³/s)를 크게 넘으면 하류(연천·동두천 임진강·신천) 수위 급상승 가능. 출동 대비.
+      </div>
+    </div>` : '';
 
   document.getElementById('riverModalBody').innerHTML = `
-    <!-- 현재 수위 큰 카드 -->
+    ${damCards}
+    <!-- 현재 수위/저수위 큰 카드 -->
     <div class="modal-section" style="margin-bottom:14px;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;">
         <div>
-          <div style="font-size:11px;color:var(--text-dim);margin-bottom:4px;">현재 수위</div>
+          <div style="font-size:11px;color:var(--text-dim);margin-bottom:4px;">${isDam ? '현재 저수위' : '현재 수위'}</div>
           <div class="river-big ${river.level}">
             <span class="num" style="font-size:54px;">${river.value.toFixed(2)}</span>
             <span class="unit" style="font-size:20px;">m</span>
@@ -2253,9 +2283,9 @@ function openRiverModal(river) {
           <div class="river-bar-fill ${river.level}" style="width:${pct}%"></div>
         </div>
         <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-sub);margin-top:5px;">
-          <span>현재 0m</span>
-          <span>주의 ${river.warning}m</span>
-          <span>위험 ${river.danger}m</span>
+          <span>${isDam ? '평수위' : '0m'}</span>
+          <span>${isDam ? '홍수기 제한' : '주의'} ${river.warning}m</span>
+          <span>${isDam ? '만수위 근접' : '위험'} ${river.danger}m</span>
         </div>
       </div>
     </div>
@@ -2281,26 +2311,66 @@ function openRiverModal(river) {
       </div>
     </div>
 
-    <!-- 실시간 CCTV -->
-    <div class="modal-section" style="margin-top:14px;">
-      <div class="modal-section-title">
-        <span style="display:flex;align-items:center;gap:6px;">실시간 CCTV
-          <span style="font-size:9px;padding:2px 6px;background:var(--danger);color:#fff;border-radius:3px;font-weight:700;letter-spacing:0.5px;">LIVE</span>
-        </span>
+    <!-- 실시간 CCTV 또는 댐 상세자료 -->
+    ${(function(){
+      // 댐 URL은 sdt/edt/ymdhm 파라미터 필수
+      const _now = new Date();
+      const _ago = new Date(_now.getTime() - 24*60*60*1000);
+      const _fmt = (d) => {
+        const Y = d.getFullYear();
+        const M = String(d.getMonth()+1).padStart(2,'0');
+        const D = String(d.getDate()).padStart(2,'0');
+        const h = String(d.getHours()).padStart(2,'0');
+        const m = String(d.getMinutes()).padStart(2,'0');
+        return { iso: `${Y}-${M}-${D} ${h}:${m}`, compact: `${Y}${M}${D}${h}${m}` };
+      };
+      const a = _fmt(_ago), b = _fmt(_now);
+      const damUrl = `https://n.flood.go.kr/observation/dam/popup.do?obscd=${river.code}&sdt=${encodeURIComponent(a.iso)}&edt=${encodeURIComponent(b.iso)}&ymdhm=${b.compact}`;
+      const damListUrl = `https://n.flood.go.kr/observation/dam/list.do`;
+      return river.has_cctv === false ? `
+      <div class="modal-section" style="margin-top:14px;">
+        <div class="modal-section-title">댐 상세자료</div>
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:18px;text-align:center;">
+          <div style="font-size:32px;margin-bottom:10px;">🌊</div>
+          <div style="font-size:13px;color:var(--text);font-weight:700;margin-bottom:4px;">${river.name}</div>
+          <div style="font-size:11px;color:var(--text-dim);margin-bottom:14px;">한강홍수통제소 자료 페이지에서 시계열 그래프·유입량·방류량 확인 가능</div>
+          <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;">
+            <a href="${damUrl}" target="_blank" rel="noopener"
+               style="display:inline-block;padding:10px 18px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none;font-weight:700;font-size:12px;">
+              ↗ 군남댐 24시간 자료 (팝업)
+            </a>
+            <a href="${damListUrl}" target="_blank" rel="noopener"
+               style="display:inline-block;padding:10px 18px;background:var(--bg-card-2);color:var(--accent);border:1px solid var(--accent);border-radius:8px;text-decoration:none;font-weight:700;font-size:12px;">
+              ↗ 댐 전체 목록 페이지
+            </a>
+          </div>
+          <div style="margin-top:10px;font-size:10px;color:var(--text-sub);">
+            ※ 첫 번째 버튼이 팝업 차단되면 두 번째 버튼으로 들어가 ${river.name.split('(')[1]?.replace(')','') || '군남'} 검색
+          </div>
+        </div>
       </div>
-      <div class="cctv-frame">
-        <iframe src="https://n.flood.go.kr/main/cctvView.do?obscd=${river.code}&fcodvcd=01"
-                allow="autoplay; fullscreen; picture-in-picture"
-                referrerpolicy="no-referrer"
-                scrolling="no"></iframe>
+    ` : `
+      <div class="modal-section" style="margin-top:14px;">
+        <div class="modal-section-title">
+          <span style="display:flex;align-items:center;gap:6px;">실시간 CCTV
+            <span style="font-size:9px;padding:2px 6px;background:var(--danger);color:#fff;border-radius:3px;font-weight:700;letter-spacing:0.5px;">LIVE</span>
+          </span>
+        </div>
+        <div class="cctv-frame">
+          <iframe src="https://n.flood.go.kr/main/cctvView.do?obscd=${river.code}&fcodvcd=01"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  referrerpolicy="no-referrer"
+                  scrolling="no"></iframe>
+        </div>
+        <div style="margin-top:8px;display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--text-sub);">
+          <span>📡 한강홍수통제소 실시간 영상</span>
+          <a href="https://n.flood.go.kr/main/cctvView.do?obscd=${river.code}&fcodvcd=01"
+             target="_blank" rel="noopener"
+             style="color:var(--accent);text-decoration:none;font-weight:600;">↗ 새 창에서 크게 보기</a>
+        </div>
       </div>
-      <div style="margin-top:8px;display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--text-sub);">
-        <span>📡 한강홍수통제소 실시간 영상</span>
-        <a href="https://n.flood.go.kr/main/cctvView.do?obscd=${river.code}&fcodvcd=01"
-           target="_blank" rel="noopener"
-           style="color:var(--accent);text-decoration:none;font-weight:600;">↗ 새 창에서 크게 보기</a>
-      </div>
-    </div>
+    `;
+    })()}
 
     <!-- 추가 안내 -->
     <div style="margin-top:14px;font-size:11px;color:var(--text-sub);line-height:1.6;">
