@@ -1,29 +1,29 @@
 // 자동 생성 파일. tools/update_data.py 가 매번 덮어씁니다.
-// 마지막 갱신: 2026-05-28 23:16:36
+// 마지막 갱신: 2026-05-29 00:26:31
 window.DASHBOARD_DATA = {
-  "updated": "2026-05-28 23:07:57",
+  "updated": "2026-05-29 00:18:01",
   "regions": [
     {
       "name": "의정부",
-      "temp": 19.0,
+      "temp": 18.0,
       "weather": "맑음",
       "rain": 0,
-      "wind": 2.2,
-      "humid": 75,
+      "wind": 1.8,
+      "humid": 80,
       "level": "normal",
-      "vec": 288.0,
-      "tmax": null,
-      "tmin": null,
+      "vec": 283.0,
+      "tmax": 28.0,
+      "tmin": 15.0,
       "pop": 0,
       "detail": {
         "observation": {
           "pty": "0",
-          "reh": 89,
+          "reh": 90,
           "rn1": 0.0,
-          "t1h": 18.0,
-          "vec": 16.0,
-          "wsd": 0.7,
-          "base_time": "22:00"
+          "t1h": 17.7,
+          "vec": 275.0,
+          "wsd": 1.2,
+          "base_time": "23:00"
         },
         "rain_cumul": {
           "1h": 0.0,
@@ -31,26 +31,12 @@ window.DASHBOARD_DATA = {
           "6h": 0.0,
           "12h": 0.0
         },
-        "wind_dir_name": "북북동",
-        "feels_like": 18.0,
-        "tmax": null,
-        "tmin": null,
+        "wind_dir_name": "서",
+        "feels_like": 17.7,
+        "tmax": 28.0,
+        "tmin": 15.0,
         "pop": 0,
         "hourly": [
-          {
-            "time": "202605282300",
-            "hour": "23시",
-            "icon": "🌙",
-            "weather": "맑음",
-            "temp": 19.0,
-            "feels_like": 18.9,
-            "rain_mm": 0,
-            "rain_pop": 0,
-            "wind_ms": 2.2,
-            "wind_deg": 288.0,
-            "wind_dir": "서북서",
-            "humid": 75
-          },
           {
             "time": "202605290000",
             "hour": "0시",
@@ -60,8 +46,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.9,
-            "wind_deg": 285.0,
+            "wind_ms": 1.8,
+            "wind_deg": 283.0,
             "wind_dir": "서북서",
             "humid": 80
           },
@@ -74,8 +60,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.7,
-            "wind_deg": 294.0,
+            "wind_ms": 1.6,
+            "wind_deg": 292.0,
             "wind_dir": "서북서",
             "humid": 80
           },
@@ -88,9 +74,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.4,
-            "wind_deg": 304.0,
-            "wind_dir": "북서",
+            "wind_ms": 1.3,
+            "wind_deg": 302.0,
+            "wind_dir": "서북서",
             "humid": 85
           },
           {
@@ -102,7 +88,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.5,
+            "wind_ms": 1.4,
             "wind_deg": 315.0,
             "wind_dir": "북서",
             "humid": 85
@@ -116,8 +102,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.5,
-            "wind_deg": 328.0,
+            "wind_ms": 1.3,
+            "wind_deg": 330.0,
             "wind_dir": "북북서",
             "humid": 85
           },
@@ -130,9 +116,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 346.0,
-            "wind_dir": "북북서",
+            "wind_ms": 1.1,
+            "wind_deg": 350.0,
+            "wind_dir": "북",
             "humid": 90
           },
           {
@@ -158,9 +144,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.8,
-            "wind_deg": 14.0,
-            "wind_dir": "북북동",
+            "wind_ms": 0.7,
+            "wind_deg": 8.0,
+            "wind_dir": "북",
             "humid": 85
           },
           {
@@ -172,8 +158,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.5,
-            "wind_deg": 59.0,
+            "wind_ms": 0.4,
+            "wind_deg": 63.0,
             "wind_dir": "동북동",
             "humid": 80
           },
@@ -186,7 +172,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 21.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.4,
+            "wind_ms": 0.2,
             "wind_deg": 45.0,
             "wind_dir": "북동",
             "humid": 70
@@ -200,9 +186,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 23.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.8,
-            "wind_deg": 346.0,
-            "wind_dir": "북북서",
+            "wind_ms": 0.7,
+            "wind_deg": 352.0,
+            "wind_dir": "북",
             "humid": 60
           },
           {
@@ -214,8 +200,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.6,
-            "wind_deg": 335.0,
+            "wind_ms": 1.5,
+            "wind_deg": 337.0,
             "wind_dir": "북북서",
             "humid": 50
           },
@@ -228,7 +214,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
+            "wind_ms": 2.2,
             "wind_deg": 322.0,
             "wind_dir": "북서",
             "humid": 45
@@ -239,11 +225,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 25.8,
+            "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.7,
-            "wind_deg": 314.0,
+            "wind_ms": 2.6,
+            "wind_deg": 313.0,
             "wind_dir": "북서",
             "humid": 40
           },
@@ -253,11 +239,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 26.9,
+            "feels_like": 27.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.0,
-            "wind_deg": 307.0,
+            "wind_ms": 2.9,
+            "wind_deg": 308.0,
             "wind_dir": "북서",
             "humid": 40
           },
@@ -267,12 +253,12 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 27.6,
+            "feels_like": 27.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.2,
-            "wind_deg": 304.0,
-            "wind_dir": "북서",
+            "wind_ms": 3.1,
+            "wind_deg": 303.0,
+            "wind_dir": "서북서",
             "humid": 35
           },
           {
@@ -281,11 +267,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 27.7,
+            "feels_like": 27.8,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.9,
-            "wind_deg": 298.0,
+            "wind_ms": 2.8,
+            "wind_deg": 297.0,
             "wind_dir": "서북서",
             "humid": 35
           },
@@ -298,8 +284,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 26.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
-            "wind_deg": 284.0,
+            "wind_ms": 2.3,
+            "wind_deg": 282.0,
             "wind_dir": "서북서",
             "humid": 35
           },
@@ -312,7 +298,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 26.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.1,
+            "wind_ms": 2.0,
             "wind_deg": 267.0,
             "wind_dir": "서",
             "humid": 40
@@ -326,8 +312,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.0,
-            "wind_deg": 247.0,
+            "wind_ms": 1.9,
+            "wind_deg": 249.0,
             "wind_dir": "서남서",
             "humid": 50
           },
@@ -340,8 +326,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.8,
-            "wind_deg": 254.0,
+            "wind_ms": 1.7,
+            "wind_deg": 257.0,
             "wind_dir": "서남서",
             "humid": 60
           },
@@ -354,8 +340,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 20.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.4,
-            "wind_deg": 266.0,
+            "wind_ms": 1.3,
+            "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 65
           },
@@ -372,31 +358,45 @@ window.DASHBOARD_DATA = {
             "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 65
+          },
+          {
+            "time": "202605292300",
+            "hour": "23시",
+            "icon": "🌙",
+            "weather": "맑음",
+            "temp": 18.0,
+            "feels_like": 18.0,
+            "rain_mm": 0,
+            "rain_pop": 0,
+            "wind_ms": 1.2,
+            "wind_deg": 270.0,
+            "wind_dir": "서",
+            "humid": 70
           }
         ]
       }
     },
     {
       "name": "양주",
-      "temp": 19.0,
+      "temp": 18.0,
       "weather": "맑음",
       "rain": 0,
-      "wind": 2.0,
+      "wind": 1.7,
       "humid": 80,
       "level": "normal",
-      "vec": 293.0,
-      "tmax": null,
-      "tmin": null,
-      "pop": 60,
+      "vec": 286.0,
+      "tmax": 28.0,
+      "tmin": 16.0,
+      "pop": 0,
       "detail": {
         "observation": {
           "pty": "0",
-          "reh": 89,
+          "reh": 90,
           "rn1": 0.0,
-          "t1h": 18.0,
-          "vec": 16.0,
-          "wsd": 0.7,
-          "base_time": "22:00"
+          "t1h": 17.7,
+          "vec": 275.0,
+          "wsd": 1.2,
+          "base_time": "23:00"
         },
         "rain_cumul": {
           "1h": 0.0,
@@ -404,26 +404,12 @@ window.DASHBOARD_DATA = {
           "6h": 0.0,
           "12h": 0.0
         },
-        "wind_dir_name": "북북동",
-        "feels_like": 18.0,
-        "tmax": null,
-        "tmin": null,
-        "pop": 60,
+        "wind_dir_name": "서",
+        "feels_like": 17.7,
+        "tmax": 28.0,
+        "tmin": 16.0,
+        "pop": 0,
         "hourly": [
-          {
-            "time": "202605282300",
-            "hour": "23시",
-            "icon": "🌧",
-            "weather": "비",
-            "temp": 19.0,
-            "feels_like": 19.0,
-            "rain_mm": 0,
-            "rain_pop": 60,
-            "wind_ms": 2.0,
-            "wind_deg": 293.0,
-            "wind_dir": "서북서",
-            "humid": 80
-          },
           {
             "time": "202605290000",
             "hour": "0시",
@@ -433,8 +419,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.8,
-            "wind_deg": 289.0,
+            "wind_ms": 1.7,
+            "wind_deg": 286.0,
             "wind_dir": "서북서",
             "humid": 80
           },
@@ -447,8 +433,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.6,
-            "wind_deg": 295.0,
+            "wind_ms": 1.5,
+            "wind_deg": 293.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -461,7 +447,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.4,
+            "wind_ms": 1.2,
             "wind_deg": 315.0,
             "wind_dir": "북서",
             "humid": 85
@@ -475,8 +461,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.5,
-            "wind_deg": 328.0,
+            "wind_ms": 1.3,
+            "wind_deg": 330.0,
             "wind_dir": "북북서",
             "humid": 85
           },
@@ -489,8 +475,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.4,
-            "wind_deg": 340.0,
+            "wind_ms": 1.3,
+            "wind_deg": 343.0,
             "wind_dir": "북북서",
             "humid": 90
           },
@@ -517,8 +503,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 9.0,
+            "wind_ms": 1.1,
+            "wind_deg": 5.0,
             "wind_dir": "북",
             "humid": 90
           },
@@ -531,8 +517,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.9,
-            "wind_deg": 41.0,
+            "wind_ms": 0.7,
+            "wind_deg": 40.0,
             "wind_dir": "북동",
             "humid": 85
           },
@@ -545,9 +531,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.8,
-            "wind_deg": 76.0,
-            "wind_dir": "동북동",
+            "wind_ms": 0.7,
+            "wind_deg": 82.0,
+            "wind_dir": "동",
             "humid": 80
           },
           {
@@ -559,8 +545,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 21.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.5,
-            "wind_deg": 79.0,
+            "wind_ms": 0.4,
+            "wind_deg": 90.0,
             "wind_dir": "동",
             "humid": 70
           },
@@ -587,8 +573,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.5,
-            "wind_deg": 337.0,
+            "wind_ms": 1.3,
+            "wind_deg": 339.0,
             "wind_dir": "북북서",
             "humid": 55
           },
@@ -598,11 +584,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 25.0,
-            "feels_like": 24.9,
+            "feels_like": 25.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.2,
-            "wind_deg": 321.0,
+            "wind_ms": 2.1,
+            "wind_deg": 323.0,
             "wind_dir": "북서",
             "humid": 50
           },
@@ -612,11 +598,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 26.0,
-            "feels_like": 25.8,
+            "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.6,
-            "wind_deg": 313.0,
+            "wind_ms": 2.5,
+            "wind_deg": 312.0,
             "wind_dir": "북서",
             "humid": 45
           },
@@ -626,11 +612,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 25.6,
+            "feels_like": 25.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.0,
-            "wind_deg": 307.0,
+            "wind_ms": 2.9,
+            "wind_deg": 308.0,
             "wind_dir": "북서",
             "humid": 40
           },
@@ -640,10 +626,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 26.8,
+            "feels_like": 26.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.1,
+            "wind_ms": 3.0,
             "wind_deg": 302.0,
             "wind_dir": "서북서",
             "humid": 40
@@ -654,10 +640,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 26.9,
+            "feels_like": 27.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.0,
+            "wind_ms": 2.9,
             "wind_deg": 297.0,
             "wind_dir": "서북서",
             "humid": 40
@@ -668,11 +654,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 25.8,
+            "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.7,
-            "wind_deg": 287.0,
+            "wind_ms": 2.5,
+            "wind_deg": 286.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -699,9 +685,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.9,
-            "wind_deg": 258.0,
-            "wind_dir": "서남서",
+            "wind_ms": 1.8,
+            "wind_deg": 261.0,
+            "wind_dir": "서",
             "humid": 55
           },
           {
@@ -713,7 +699,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.7,
+            "wind_ms": 1.6,
             "wind_deg": 263.0,
             "wind_dir": "서",
             "humid": 60
@@ -745,31 +731,45 @@ window.DASHBOARD_DATA = {
             "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 70
+          },
+          {
+            "time": "202605292300",
+            "hour": "23시",
+            "icon": "🌙",
+            "weather": "맑음",
+            "temp": 18.0,
+            "feels_like": 18.0,
+            "rain_mm": 0,
+            "rain_pop": 0,
+            "wind_ms": 0.9,
+            "wind_deg": 270.0,
+            "wind_dir": "서",
+            "humid": 70
           }
         ]
       }
     },
     {
       "name": "동두천",
-      "temp": 19.0,
+      "temp": 18.0,
       "weather": "맑음",
       "rain": 0,
-      "wind": 2.0,
-      "humid": 75,
+      "wind": 1.4,
+      "humid": 80,
       "level": "normal",
-      "vec": 284.0,
-      "tmax": null,
-      "tmin": null,
+      "vec": 278.0,
+      "tmax": 28.0,
+      "tmin": 15.0,
       "pop": 0,
       "detail": {
         "observation": {
           "pty": "0",
-          "reh": 85,
+          "reh": 88,
           "rn1": 0.0,
-          "t1h": 18.4,
-          "vec": 190.0,
+          "t1h": 17.7,
+          "vec": 250.0,
           "wsd": 1.1,
-          "base_time": "22:00"
+          "base_time": "23:00"
         },
         "rain_cumul": {
           "1h": 0.0,
@@ -777,26 +777,12 @@ window.DASHBOARD_DATA = {
           "6h": 0.0,
           "12h": 0.0
         },
-        "wind_dir_name": "남",
-        "feels_like": 18.4,
-        "tmax": null,
-        "tmin": null,
+        "wind_dir_name": "서남서",
+        "feels_like": 17.7,
+        "tmax": 28.0,
+        "tmin": 15.0,
         "pop": 0,
         "hourly": [
-          {
-            "time": "202605282300",
-            "hour": "23시",
-            "icon": "🌙",
-            "weather": "맑음",
-            "temp": 19.0,
-            "feels_like": 19.0,
-            "rain_mm": 0,
-            "rain_pop": 0,
-            "wind_ms": 2.0,
-            "wind_deg": 284.0,
-            "wind_dir": "서북서",
-            "humid": 75
-          },
           {
             "time": "202605290000",
             "hour": "0시",
@@ -806,8 +792,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.5,
-            "wind_deg": 281.0,
+            "wind_ms": 1.4,
+            "wind_deg": 278.0,
             "wind_dir": "서",
             "humid": 80
           },
@@ -820,8 +806,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 279.0,
+            "wind_ms": 1.1,
+            "wind_deg": 275.0,
             "wind_dir": "서",
             "humid": 80
           },
@@ -834,8 +820,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.0,
-            "wind_deg": 299.0,
+            "wind_ms": 0.8,
+            "wind_deg": 297.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -848,8 +834,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.8,
-            "wind_deg": 333.0,
+            "wind_ms": 0.7,
+            "wind_deg": 337.0,
             "wind_dir": "북북서",
             "humid": 85
           },
@@ -862,9 +848,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.8,
-            "wind_deg": 346.0,
-            "wind_dir": "북북서",
+            "wind_ms": 0.7,
+            "wind_deg": 352.0,
+            "wind_dir": "북",
             "humid": 90
           },
           {
@@ -890,9 +876,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 15.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.8,
-            "wind_deg": 14.0,
-            "wind_dir": "북북동",
+            "wind_ms": 0.7,
+            "wind_deg": 8.0,
+            "wind_dir": "북",
             "humid": 90
           },
           {
@@ -904,7 +890,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.7,
+            "wind_ms": 0.5,
             "wind_deg": 45.0,
             "wind_dir": "북동",
             "humid": 85
@@ -918,9 +904,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.7,
-            "wind_deg": 74.0,
-            "wind_dir": "동북동",
+            "wind_ms": 0.6,
+            "wind_deg": 81.0,
+            "wind_dir": "동",
             "humid": 80
           },
           {
@@ -932,7 +918,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 21.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.5,
+            "wind_ms": 0.4,
             "wind_deg": 45.0,
             "wind_dir": "북동",
             "humid": 70
@@ -960,8 +946,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 331.0,
+            "wind_ms": 1.1,
+            "wind_deg": 333.0,
             "wind_dir": "북북서",
             "humid": 50
           },
@@ -974,8 +960,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.8,
-            "wind_deg": 311.0,
+            "wind_ms": 1.7,
+            "wind_deg": 310.0,
             "wind_dir": "북서",
             "humid": 50
           },
@@ -985,11 +971,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 26.6,
+            "feels_like": 26.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
-            "wind_deg": 305.0,
+            "wind_ms": 2.3,
+            "wind_deg": 304.0,
             "wind_dir": "북서",
             "humid": 45
           },
@@ -999,11 +985,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 27.1,
+            "feels_like": 27.2,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.7,
-            "wind_deg": 303.0,
+            "wind_ms": 2.6,
+            "wind_deg": 302.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -1016,8 +1002,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 27.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.9,
-            "wind_deg": 298.0,
+            "wind_ms": 2.8,
+            "wind_deg": 297.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -1027,11 +1013,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 27.7,
+            "feels_like": 27.8,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.9,
-            "wind_deg": 288.0,
+            "wind_ms": 2.8,
+            "wind_deg": 287.0,
             "wind_dir": "서북서",
             "humid": 35
           },
@@ -1044,9 +1030,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 26.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
-            "wind_deg": 282.0,
-            "wind_dir": "서북서",
+            "wind_ms": 2.3,
+            "wind_deg": 280.0,
+            "wind_dir": "서",
             "humid": 35
           },
           {
@@ -1072,8 +1058,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 23.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.9,
-            "wind_deg": 261.0,
+            "wind_ms": 1.8,
+            "wind_deg": 264.0,
             "wind_dir": "서",
             "humid": 50
           },
@@ -1086,7 +1072,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.0,
+            "wind_ms": 1.9,
             "wind_deg": 264.0,
             "wind_dir": "서",
             "humid": 55
@@ -1118,31 +1104,45 @@ window.DASHBOARD_DATA = {
             "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 65
+          },
+          {
+            "time": "202605292300",
+            "hour": "23시",
+            "icon": "🌙",
+            "weather": "맑음",
+            "temp": 18.0,
+            "feels_like": 18.0,
+            "rain_mm": 0,
+            "rain_pop": 0,
+            "wind_ms": 1.1,
+            "wind_deg": 270.0,
+            "wind_dir": "서",
+            "humid": 70
           }
         ]
       }
     },
     {
       "name": "포천",
-      "temp": 18.0,
+      "temp": 17.0,
       "weather": "맑음",
       "rain": 0,
-      "wind": 1.8,
-      "humid": 80,
+      "wind": 1.3,
+      "humid": 85,
       "level": "normal",
-      "vec": 288.0,
-      "tmax": null,
-      "tmin": null,
-      "pop": 60,
+      "vec": 291.0,
+      "tmax": 28.0,
+      "tmin": 14.0,
+      "pop": 0,
       "detail": {
         "observation": {
           "pty": "0",
-          "reh": 80,
+          "reh": 86,
           "rn1": 0.0,
-          "t1h": 20.1,
-          "vec": 304.0,
-          "wsd": 1.8,
-          "base_time": "22:00"
+          "t1h": 19.0,
+          "vec": 227.0,
+          "wsd": 1.6,
+          "base_time": "23:00"
         },
         "rain_cumul": {
           "1h": 0.0,
@@ -1150,26 +1150,12 @@ window.DASHBOARD_DATA = {
           "6h": 0.0,
           "12h": 0.0
         },
-        "wind_dir_name": "북서",
-        "feels_like": 20.1,
-        "tmax": null,
-        "tmin": null,
-        "pop": 60,
+        "wind_dir_name": "남서",
+        "feels_like": 19.0,
+        "tmax": 28.0,
+        "tmin": 14.0,
+        "pop": 0,
         "hourly": [
-          {
-            "time": "202605282300",
-            "hour": "23시",
-            "icon": "🌧",
-            "weather": "비",
-            "temp": 18.0,
-            "feels_like": 18.0,
-            "rain_mm": 0,
-            "rain_pop": 60,
-            "wind_ms": 1.8,
-            "wind_deg": 288.0,
-            "wind_dir": "서북서",
-            "humid": 80
-          },
           {
             "time": "202605290000",
             "hour": "0시",
@@ -1179,8 +1165,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.5,
-            "wind_deg": 293.0,
+            "wind_ms": 1.3,
+            "wind_deg": 291.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -1193,8 +1179,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.3,
-            "wind_deg": 297.0,
+            "wind_ms": 1.2,
+            "wind_deg": 294.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -1207,8 +1193,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 20,
-            "wind_ms": 1.2,
-            "wind_deg": 305.0,
+            "wind_ms": 1.0,
+            "wind_deg": 304.0,
             "wind_dir": "북서",
             "humid": 90
           },
@@ -1221,9 +1207,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 15.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.0,
-            "wind_deg": 326.0,
-            "wind_dir": "북서",
+            "wind_ms": 0.9,
+            "wind_deg": 328.0,
+            "wind_dir": "북북서",
             "humid": 90
           },
           {
@@ -1235,8 +1221,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 15.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.9,
-            "wind_deg": 354.0,
+            "wind_ms": 0.8,
+            "wind_deg": 0.0,
             "wind_dir": "북",
             "humid": 95
           },
@@ -1263,8 +1249,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 14.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.6,
-            "wind_deg": 51.0,
+            "wind_ms": 0.5,
+            "wind_deg": 53.0,
             "wind_dir": "북동",
             "humid": 95
           },
@@ -1277,8 +1263,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.5,
-            "wind_deg": 68.0,
+            "wind_ms": 0.4,
+            "wind_deg": 76.0,
             "wind_dir": "동북동",
             "humid": 90
           },
@@ -1291,8 +1277,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.6,
-            "wind_deg": 81.0,
+            "wind_ms": 0.5,
+            "wind_deg": 90.0,
             "wind_dir": "동",
             "humid": 85
           },
@@ -1306,8 +1292,8 @@ window.DASHBOARD_DATA = {
             "rain_mm": 0,
             "rain_pop": 0,
             "wind_ms": 0.1,
-            "wind_deg": 45.0,
-            "wind_dir": "북동",
+            "wind_deg": 270.0,
+            "wind_dir": "서",
             "humid": 75
           },
           {
@@ -1319,9 +1305,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.7,
-            "wind_deg": 326.0,
-            "wind_dir": "북서",
+            "wind_ms": 0.5,
+            "wind_deg": 329.0,
+            "wind_dir": "북북서",
             "humid": 65
           },
           {
@@ -1333,8 +1319,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 321.0,
+            "wind_ms": 1.1,
+            "wind_deg": 322.0,
             "wind_dir": "북서",
             "humid": 55
           },
@@ -1347,7 +1333,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.9,
+            "wind_ms": 1.8,
             "wind_deg": 311.0,
             "wind_dir": "북서",
             "humid": 50
@@ -1361,8 +1347,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.5,
-            "wind_deg": 301.0,
+            "wind_ms": 2.4,
+            "wind_deg": 300.0,
             "wind_dir": "서북서",
             "humid": 45
           },
@@ -1375,8 +1361,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.9,
-            "wind_deg": 303.0,
+            "wind_ms": 2.8,
+            "wind_deg": 302.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -1386,10 +1372,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 25.5,
+            "feels_like": 25.6,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.1,
+            "wind_ms": 3.0,
             "wind_deg": 297.0,
             "wind_dir": "서북서",
             "humid": 40
@@ -1403,8 +1389,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 26.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.0,
-            "wind_deg": 291.0,
+            "wind_ms": 2.9,
+            "wind_deg": 290.0,
             "wind_dir": "서북서",
             "humid": 35
           },
@@ -1414,11 +1400,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 25.8,
+            "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.7,
-            "wind_deg": 280.0,
+            "wind_ms": 2.6,
+            "wind_deg": 279.0,
             "wind_dir": "서",
             "humid": 40
           },
@@ -1431,7 +1417,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.1,
+            "wind_ms": 2.0,
             "wind_deg": 273.0,
             "wind_dir": "서",
             "humid": 40
@@ -1445,8 +1431,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 23.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.6,
-            "wind_deg": 263.0,
+            "wind_ms": 1.5,
+            "wind_deg": 266.0,
             "wind_dir": "서",
             "humid": 50
           },
@@ -1491,31 +1477,45 @@ window.DASHBOARD_DATA = {
             "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 70
+          },
+          {
+            "time": "202605292300",
+            "hour": "23시",
+            "icon": "🌙",
+            "weather": "맑음",
+            "temp": 17.0,
+            "feels_like": 17.0,
+            "rain_mm": 0,
+            "rain_pop": 0,
+            "wind_ms": 0.7,
+            "wind_deg": 278.0,
+            "wind_dir": "서",
+            "humid": 70
           }
         ]
       }
     },
     {
       "name": "연천",
-      "temp": 19.0,
+      "temp": 18.0,
       "weather": "맑음",
       "rain": 0,
-      "wind": 1.8,
-      "humid": 80,
+      "wind": 1.2,
+      "humid": 85,
       "level": "normal",
-      "vec": 279.0,
-      "tmax": null,
-      "tmin": null,
+      "vec": 284.0,
+      "tmax": 27.0,
+      "tmin": 14.0,
       "pop": 20,
       "detail": {
         "observation": {
           "pty": "0",
-          "reh": 96,
+          "reh": 97,
           "rn1": 0.0,
-          "t1h": 18.1,
-          "vec": 153.0,
-          "wsd": 0.2,
-          "base_time": "22:00"
+          "t1h": 17.3,
+          "vec": 141.0,
+          "wsd": 0.6,
+          "base_time": "23:00"
         },
         "rain_cumul": {
           "1h": 0.0,
@@ -1523,26 +1523,12 @@ window.DASHBOARD_DATA = {
           "6h": 0.0,
           "12h": 0.0
         },
-        "wind_dir_name": "남남동",
-        "feels_like": 18.1,
-        "tmax": null,
-        "tmin": null,
+        "wind_dir_name": "남동",
+        "feels_like": 17.3,
+        "tmax": 27.0,
+        "tmin": 14.0,
         "pop": 20,
         "hourly": [
-          {
-            "time": "202605282300",
-            "hour": "23시",
-            "icon": "🌥",
-            "weather": "구름많음",
-            "temp": 19.0,
-            "feels_like": 19.0,
-            "rain_mm": 0,
-            "rain_pop": 20,
-            "wind_ms": 1.8,
-            "wind_deg": 279.0,
-            "wind_dir": "서",
-            "humid": 80
-          },
           {
             "time": "202605290000",
             "hour": "0시",
@@ -1552,8 +1538,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 20,
-            "wind_ms": 1.3,
-            "wind_deg": 287.0,
+            "wind_ms": 1.2,
+            "wind_deg": 284.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -1566,9 +1552,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 20,
-            "wind_ms": 0.7,
-            "wind_deg": 304.0,
-            "wind_dir": "북서",
+            "wind_ms": 0.5,
+            "wind_deg": 301.0,
+            "wind_dir": "서북서",
             "humid": 90
           },
           {
@@ -1580,7 +1566,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.5,
+            "wind_ms": 0.4,
             "wind_deg": 315.0,
             "wind_dir": "북서",
             "humid": 90
@@ -1608,8 +1594,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 15.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.9,
-            "wind_deg": 6.0,
+            "wind_ms": 0.8,
+            "wind_deg": 0.0,
             "wind_dir": "북",
             "humid": 95
           },
@@ -1622,8 +1608,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 14.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.1,
-            "wind_deg": 10.0,
+            "wind_ms": 1.0,
+            "wind_deg": 6.0,
             "wind_dir": "북",
             "humid": 95
           },
@@ -1636,8 +1622,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 14.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.9,
-            "wind_deg": 32.0,
+            "wind_ms": 0.8,
+            "wind_deg": 30.0,
             "wind_dir": "북북동",
             "humid": 95
           },
@@ -1650,8 +1636,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.9,
-            "wind_deg": 49.0,
+            "wind_ms": 0.7,
+            "wind_deg": 50.0,
             "wind_dir": "북동",
             "humid": 90
           },
@@ -1664,9 +1650,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.7,
-            "wind_deg": 56.0,
-            "wind_dir": "북동",
+            "wind_ms": 0.5,
+            "wind_deg": 59.0,
+            "wind_dir": "동북동",
             "humid": 85
           },
           {
@@ -1678,7 +1664,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 20.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.4,
+            "wind_ms": 0.2,
             "wind_deg": 45.0,
             "wind_dir": "북동",
             "humid": 75
@@ -1692,8 +1678,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.4,
-            "wind_deg": 333.0,
+            "wind_ms": 0.3,
+            "wind_deg": 342.0,
             "wind_dir": "북북서",
             "humid": 65
           },
@@ -1706,8 +1692,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.3,
-            "wind_deg": 302.0,
+            "wind_ms": 1.2,
+            "wind_deg": 299.0,
             "wind_dir": "서북서",
             "humid": 55
           },
@@ -1720,8 +1706,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.1,
-            "wind_deg": 298.0,
+            "wind_ms": 2.0,
+            "wind_deg": 297.0,
             "wind_dir": "서북서",
             "humid": 45
           },
@@ -1731,10 +1717,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 26.0,
-            "feels_like": 25.8,
+            "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.6,
+            "wind_ms": 2.5,
             "wind_deg": 293.0,
             "wind_dir": "서북서",
             "humid": 45
@@ -1745,11 +1731,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 25.6,
+            "feels_like": 25.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.0,
-            "wind_deg": 291.0,
+            "wind_ms": 2.9,
+            "wind_deg": 290.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -1759,10 +1745,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 25.5,
+            "feels_like": 25.6,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.1,
+            "wind_ms": 3.0,
             "wind_deg": 287.0,
             "wind_dir": "서북서",
             "humid": 40
@@ -1776,9 +1762,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 26.6,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.3,
-            "wind_deg": 282.0,
-            "wind_dir": "서북서",
+            "wind_ms": 3.2,
+            "wind_deg": 281.0,
+            "wind_dir": "서",
             "humid": 35
           },
           {
@@ -1787,10 +1773,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 26.7,
+            "feels_like": 26.8,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.9,
+            "wind_ms": 2.8,
             "wind_deg": 276.0,
             "wind_dir": "서",
             "humid": 35
@@ -1804,7 +1790,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.3,
+            "wind_ms": 2.2,
             "wind_deg": 265.0,
             "wind_dir": "서",
             "humid": 45
@@ -1832,8 +1818,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.8,
-            "wind_deg": 276.0,
+            "wind_ms": 1.7,
+            "wind_deg": 273.0,
             "wind_dir": "서",
             "humid": 55
           },
@@ -1860,35 +1846,49 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.1,
-            "wind_deg": 275.0,
+            "wind_ms": 1.0,
+            "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 65
+          },
+          {
+            "time": "202605292300",
+            "hour": "23시",
+            "icon": "🌙",
+            "weather": "맑음",
+            "temp": 17.0,
+            "feels_like": 17.0,
+            "rain_mm": 0,
+            "rain_pop": 0,
+            "wind_ms": 0.7,
+            "wind_deg": 270.0,
+            "wind_dir": "서",
+            "humid": 70
           }
         ]
       }
     },
     {
       "name": "가평",
-      "temp": 19.0,
+      "temp": 18.0,
       "weather": "맑음",
       "rain": 0,
-      "wind": 2.0,
-      "humid": 80,
+      "wind": 1.4,
+      "humid": 85,
       "level": "normal",
-      "vec": 259.0,
-      "tmax": null,
-      "tmin": null,
+      "vec": 262.0,
+      "tmax": 26.0,
+      "tmin": 15.0,
       "pop": 0,
       "detail": {
         "observation": {
           "pty": "0",
-          "reh": 81,
+          "reh": 83,
           "rn1": 0.0,
-          "t1h": 20.6,
-          "vec": 193.0,
-          "wsd": 0.9,
-          "base_time": "22:00"
+          "t1h": 19.2,
+          "vec": 333.0,
+          "wsd": 0.2,
+          "base_time": "23:00"
         },
         "rain_cumul": {
           "1h": 0.0,
@@ -1896,26 +1896,12 @@ window.DASHBOARD_DATA = {
           "6h": 0.0,
           "12h": 0.0
         },
-        "wind_dir_name": "남남서",
-        "feels_like": 20.6,
-        "tmax": null,
-        "tmin": null,
+        "wind_dir_name": "북북서",
+        "feels_like": 19.2,
+        "tmax": 26.0,
+        "tmin": 15.0,
         "pop": 0,
         "hourly": [
-          {
-            "time": "202605282300",
-            "hour": "23시",
-            "icon": "🌙",
-            "weather": "맑음",
-            "temp": 19.0,
-            "feels_like": 19.0,
-            "rain_mm": 0,
-            "rain_pop": 0,
-            "wind_ms": 2.0,
-            "wind_deg": 259.0,
-            "wind_dir": "서",
-            "humid": 80
-          },
           {
             "time": "202605290000",
             "hour": "0시",
@@ -1925,8 +1911,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.5,
-            "wind_deg": 259.0,
+            "wind_ms": 1.4,
+            "wind_deg": 262.0,
             "wind_dir": "서",
             "humid": 85
           },
@@ -1953,8 +1939,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.5,
-            "wind_deg": 307.0,
+            "wind_ms": 0.4,
+            "wind_deg": 315.0,
             "wind_dir": "북서",
             "humid": 90
           },
@@ -1967,8 +1953,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.7,
-            "wind_deg": 8.0,
+            "wind_ms": 0.6,
+            "wind_deg": 0.0,
             "wind_dir": "북",
             "humid": 90
           },
@@ -1981,8 +1967,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.0,
-            "wind_deg": 53.0,
+            "wind_ms": 0.9,
+            "wind_deg": 49.0,
             "wind_dir": "북동",
             "humid": 90
           },
@@ -1995,8 +1981,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.1,
-            "wind_deg": 63.0,
+            "wind_ms": 0.9,
+            "wind_deg": 66.0,
             "wind_dir": "동북동",
             "humid": 90
           },
@@ -2009,8 +1995,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 66.0,
+            "wind_ms": 1.0,
+            "wind_deg": 68.0,
             "wind_dir": "동북동",
             "humid": 90
           },
@@ -2023,8 +2009,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 81.0,
+            "wind_ms": 1.1,
+            "wind_deg": 85.0,
             "wind_dir": "동",
             "humid": 85
           },
@@ -2037,8 +2023,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 81.0,
+            "wind_ms": 1.1,
+            "wind_deg": 85.0,
             "wind_dir": "동",
             "humid": 80
           },
@@ -2079,9 +2065,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 23.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.2,
-            "wind_deg": 297.0,
-            "wind_dir": "서북서",
+            "wind_ms": 0.1,
+            "wind_deg": 270.0,
+            "wind_dir": "서",
             "humid": 55
           },
           {
@@ -2093,8 +2079,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.9,
-            "wind_deg": 283.0,
+            "wind_ms": 0.8,
+            "wind_deg": 284.0,
             "wind_dir": "서북서",
             "humid": 50
           },
@@ -2107,8 +2093,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 26.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.8,
-            "wind_deg": 286.0,
+            "wind_ms": 1.7,
+            "wind_deg": 283.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -2121,8 +2107,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
-            "wind_deg": 287.0,
+            "wind_ms": 2.3,
+            "wind_deg": 288.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -2135,8 +2121,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.8,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.7,
-            "wind_deg": 285.0,
+            "wind_ms": 2.6,
+            "wind_deg": 283.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -2149,8 +2135,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.1,
-            "wind_deg": 281.0,
+            "wind_ms": 3.0,
+            "wind_deg": 279.0,
             "wind_dir": "서",
             "humid": 35
           },
@@ -2163,7 +2149,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.0,
+            "wind_ms": 2.9,
             "wind_deg": 276.0,
             "wind_dir": "서",
             "humid": 35
@@ -2174,10 +2160,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 25.0,
-            "feels_like": 24.8,
+            "feels_like": 24.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.6,
+            "wind_ms": 2.5,
             "wind_deg": 263.0,
             "wind_dir": "서",
             "humid": 45
@@ -2191,7 +2177,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 23.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.3,
+            "wind_ms": 2.2,
             "wind_deg": 252.0,
             "wind_dir": "서남서",
             "humid": 50
@@ -2205,9 +2191,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.1,
-            "wind_deg": 257.0,
-            "wind_dir": "서남서",
+            "wind_ms": 2.0,
+            "wind_deg": 259.0,
+            "wind_dir": "서",
             "humid": 55
           },
           {
@@ -2219,8 +2205,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 20.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.7,
-            "wind_deg": 254.0,
+            "wind_ms": 1.6,
+            "wind_deg": 256.0,
             "wind_dir": "서남서",
             "humid": 60
           },
@@ -2233,10 +2219,24 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.4,
-            "wind_deg": 254.0,
+            "wind_ms": 1.3,
+            "wind_deg": 257.0,
             "wind_dir": "서남서",
             "humid": 65
+          },
+          {
+            "time": "202605292300",
+            "hour": "23시",
+            "icon": "🌙",
+            "weather": "맑음",
+            "temp": 18.0,
+            "feels_like": 18.0,
+            "rain_mm": 0,
+            "rain_pop": 0,
+            "wind_ms": 1.2,
+            "wind_deg": 270.0,
+            "wind_dir": "서",
+            "humid": 70
           }
         ]
       }
@@ -2246,22 +2246,22 @@ window.DASHBOARD_DATA = {
       "temp": 19.0,
       "weather": "맑음",
       "rain": 0,
-      "wind": 1.6,
+      "wind": 1.3,
       "humid": 85,
       "level": "normal",
       "vec": 270.0,
-      "tmax": null,
-      "tmin": null,
+      "tmax": 29.0,
+      "tmin": 16.0,
       "pop": 0,
       "detail": {
         "observation": {
           "pty": "0",
-          "reh": 84,
+          "reh": 85,
           "rn1": 0.0,
-          "t1h": 18.8,
-          "vec": 255.0,
-          "wsd": 1.1,
-          "base_time": "22:00"
+          "t1h": 18.6,
+          "vec": 238.0,
+          "wsd": 0.9,
+          "base_time": "23:00"
         },
         "rain_cumul": {
           "1h": 0.0,
@@ -2270,25 +2270,11 @@ window.DASHBOARD_DATA = {
           "12h": 0.0
         },
         "wind_dir_name": "서남서",
-        "feels_like": 18.8,
-        "tmax": null,
-        "tmin": null,
+        "feels_like": 18.6,
+        "tmax": 29.0,
+        "tmin": 16.0,
         "pop": 0,
         "hourly": [
-          {
-            "time": "202605282300",
-            "hour": "23시",
-            "icon": "🌙",
-            "weather": "맑음",
-            "temp": 19.0,
-            "feels_like": 19.0,
-            "rain_mm": 0,
-            "rain_pop": 0,
-            "wind_ms": 1.6,
-            "wind_deg": 270.0,
-            "wind_dir": "서",
-            "humid": 85
-          },
           {
             "time": "202605290000",
             "hour": "0시",
@@ -2298,8 +2284,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.4,
-            "wind_deg": 274.0,
+            "wind_ms": 1.3,
+            "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 85
           },
@@ -2312,8 +2298,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 279.0,
+            "wind_ms": 1.1,
+            "wind_deg": 275.0,
             "wind_dir": "서",
             "humid": 85
           },
@@ -2326,8 +2312,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 279.0,
+            "wind_ms": 1.1,
+            "wind_deg": 275.0,
             "wind_dir": "서",
             "humid": 90
           },
@@ -2340,8 +2326,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.0,
-            "wind_deg": 292.0,
+            "wind_ms": 0.9,
+            "wind_deg": 288.0,
             "wind_dir": "서북서",
             "humid": 90
           },
@@ -2354,7 +2340,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.8,
+            "wind_ms": 0.7,
             "wind_deg": 315.0,
             "wind_dir": "북서",
             "humid": 90
@@ -2368,9 +2354,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.7,
-            "wind_deg": 344.0,
-            "wind_dir": "북북서",
+            "wind_ms": 0.6,
+            "wind_deg": 351.0,
+            "wind_dir": "북",
             "humid": 95
           },
           {
@@ -2396,8 +2382,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.0,
-            "wind_deg": 37.0,
+            "wind_ms": 0.9,
+            "wind_deg": 41.0,
             "wind_dir": "북동",
             "humid": 85
           },
@@ -2410,8 +2396,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 55.0,
+            "wind_ms": 1.0,
+            "wind_deg": 56.0,
             "wind_dir": "북동",
             "humid": 80
           },
@@ -2424,8 +2410,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 21.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.6,
-            "wind_deg": 51.0,
+            "wind_ms": 0.5,
+            "wind_deg": 53.0,
             "wind_dir": "북동",
             "humid": 75
           },
@@ -2438,8 +2424,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 23.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.6,
-            "wind_deg": 351.0,
+            "wind_ms": 0.5,
+            "wind_deg": 0.0,
             "wind_dir": "북",
             "humid": 65
           },
@@ -2452,8 +2438,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.9,
-            "wind_deg": 319.0,
+            "wind_ms": 0.7,
+            "wind_deg": 320.0,
             "wind_dir": "북서",
             "humid": 60
           },
@@ -2466,8 +2452,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 26.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.8,
-            "wind_deg": 319.0,
+            "wind_ms": 1.7,
+            "wind_deg": 320.0,
             "wind_dir": "북서",
             "humid": 50
           },
@@ -2480,8 +2466,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 26.8,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.2,
-            "wind_deg": 309.0,
+            "wind_ms": 2.1,
+            "wind_deg": 307.0,
             "wind_dir": "북서",
             "humid": 45
           },
@@ -2494,8 +2480,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 27.2,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.6,
-            "wind_deg": 302.0,
+            "wind_ms": 2.5,
+            "wind_deg": 301.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -2505,12 +2491,12 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 29.0,
-            "feels_like": 28.3,
+            "feels_like": 28.4,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.8,
-            "wind_deg": 304.0,
-            "wind_dir": "북서",
+            "wind_ms": 2.7,
+            "wind_deg": 303.0,
+            "wind_dir": "서북서",
             "humid": 40
           },
           {
@@ -2522,8 +2508,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 28.8,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.8,
-            "wind_deg": 302.0,
+            "wind_ms": 2.6,
+            "wind_deg": 301.0,
             "wind_dir": "서북서",
             "humid": 35
           },
@@ -2533,10 +2519,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 27.8,
+            "feels_like": 27.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.6,
+            "wind_ms": 2.5,
             "wind_deg": 288.0,
             "wind_dir": "서북서",
             "humid": 35
@@ -2547,11 +2533,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 26.0,
-            "feels_like": 25.9,
+            "feels_like": 26.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.2,
-            "wind_deg": 265.0,
+            "wind_ms": 2.1,
+            "wind_deg": 267.0,
             "wind_dir": "서",
             "humid": 45
           },
@@ -2564,8 +2550,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.0,
-            "wind_deg": 250.0,
+            "wind_ms": 1.8,
+            "wind_deg": 252.0,
             "wind_dir": "서남서",
             "humid": 50
           },
@@ -2578,9 +2564,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.6,
-            "wind_deg": 256.0,
-            "wind_dir": "서남서",
+            "wind_ms": 1.5,
+            "wind_deg": 259.0,
+            "wind_dir": "서",
             "humid": 60
           },
           {
@@ -2592,8 +2578,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 21.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.4,
-            "wind_deg": 262.0,
+            "wind_ms": 1.3,
+            "wind_deg": 266.0,
             "wind_dir": "서",
             "humid": 65
           },
@@ -2606,35 +2592,49 @@ window.DASHBOARD_DATA = {
             "feels_like": 20.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.1,
-            "wind_deg": 265.0,
+            "wind_ms": 1.0,
+            "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 70
+          },
+          {
+            "time": "202605292300",
+            "hour": "23시",
+            "icon": "🌙",
+            "weather": "맑음",
+            "temp": 18.0,
+            "feels_like": 18.0,
+            "rain_mm": 0,
+            "rain_pop": 0,
+            "wind_ms": 0.7,
+            "wind_deg": 270.0,
+            "wind_dir": "서",
+            "humid": 75
           }
         ]
       }
     },
     {
       "name": "구리",
-      "temp": 21.0,
+      "temp": 20.0,
       "weather": "맑음",
       "rain": 0,
-      "wind": 1.7,
+      "wind": 1.6,
       "humid": 80,
       "level": "normal",
       "vec": 270.0,
-      "tmax": null,
-      "tmin": null,
+      "tmax": 28.0,
+      "tmin": 17.0,
       "pop": 0,
       "detail": {
         "observation": {
           "pty": "0",
-          "reh": 80,
+          "reh": 82,
           "rn1": 0.0,
-          "t1h": 18.8,
-          "vec": 173.0,
-          "wsd": 2.5,
-          "base_time": "22:00"
+          "t1h": 18.2,
+          "vec": 185.0,
+          "wsd": 2.3,
+          "base_time": "23:00"
         },
         "rain_cumul": {
           "1h": 0.0,
@@ -2643,25 +2643,11 @@ window.DASHBOARD_DATA = {
           "12h": 0.0
         },
         "wind_dir_name": "남",
-        "feels_like": 18.7,
-        "tmax": null,
-        "tmin": null,
+        "feels_like": 18.1,
+        "tmax": 28.0,
+        "tmin": 17.0,
         "pop": 0,
         "hourly": [
-          {
-            "time": "202605282300",
-            "hour": "23시",
-            "icon": "🌙",
-            "weather": "맑음",
-            "temp": 21.0,
-            "feels_like": 21.0,
-            "rain_mm": 0,
-            "rain_pop": 0,
-            "wind_ms": 1.7,
-            "wind_deg": 270.0,
-            "wind_dir": "서",
-            "humid": 80
-          },
           {
             "time": "202605290000",
             "hour": "0시",
@@ -2685,8 +2671,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 20.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.3,
-            "wind_deg": 274.0,
+            "wind_ms": 1.2,
+            "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 80
           },
@@ -2699,7 +2685,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.3,
+            "wind_ms": 1.2,
             "wind_deg": 279.0,
             "wind_dir": "서",
             "humid": 85
@@ -2713,8 +2699,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 294.0,
+            "wind_ms": 1.0,
+            "wind_deg": 292.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -2727,8 +2713,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.9,
-            "wind_deg": 319.0,
+            "wind_ms": 0.7,
+            "wind_deg": 320.0,
             "wind_dir": "북서",
             "humid": 85
           },
@@ -2741,8 +2727,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.8,
-            "wind_deg": 339.0,
+            "wind_ms": 0.7,
+            "wind_deg": 344.0,
             "wind_dir": "북북서",
             "humid": 85
           },
@@ -2769,8 +2755,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 0.9,
-            "wind_deg": 18.0,
+            "wind_ms": 0.8,
+            "wind_deg": 14.0,
             "wind_dir": "북북동",
             "humid": 85
           },
@@ -2783,7 +2769,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 20.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
+            "wind_ms": 1.1,
             "wind_deg": 45.0,
             "wind_dir": "북동",
             "humid": 80
@@ -2797,7 +2783,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.1,
+            "wind_ms": 0.9,
             "wind_deg": 45.0,
             "wind_dir": "북동",
             "humid": 70
@@ -2825,8 +2811,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 336.0,
+            "wind_ms": 1.0,
+            "wind_deg": 338.0,
             "wind_dir": "북북서",
             "humid": 55
           },
@@ -2839,8 +2825,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 26.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.9,
-            "wind_deg": 325.0,
+            "wind_ms": 1.8,
+            "wind_deg": 326.0,
             "wind_dir": "북서",
             "humid": 45
           },
@@ -2850,10 +2836,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 26.0,
+            "feels_like": 26.2,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
+            "wind_ms": 2.2,
             "wind_deg": 315.0,
             "wind_dir": "북서",
             "humid": 40
@@ -2864,11 +2850,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 27.2,
+            "feels_like": 27.3,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.5,
-            "wind_deg": 306.0,
+            "wind_ms": 2.4,
+            "wind_deg": 305.0,
             "wind_dir": "북서",
             "humid": 40
           },
@@ -2881,9 +2867,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 27.8,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.8,
-            "wind_deg": 304.0,
-            "wind_dir": "북서",
+            "wind_ms": 2.7,
+            "wind_deg": 303.0,
+            "wind_dir": "서북서",
             "humid": 35
           },
           {
@@ -2895,8 +2881,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 27.8,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.7,
-            "wind_deg": 291.0,
+            "wind_ms": 2.6,
+            "wind_deg": 290.0,
             "wind_dir": "서북서",
             "humid": 35
           },
@@ -2906,10 +2892,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 26.8,
+            "feels_like": 26.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.6,
+            "wind_ms": 2.5,
             "wind_deg": 279.0,
             "wind_dir": "서",
             "humid": 35
@@ -2923,8 +2909,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.5,
-            "wind_deg": 259.0,
+            "wind_ms": 2.4,
+            "wind_deg": 261.0,
             "wind_dir": "서",
             "humid": 40
           },
@@ -2937,8 +2923,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
-            "wind_deg": 246.0,
+            "wind_ms": 2.2,
+            "wind_deg": 247.0,
             "wind_dir": "서남서",
             "humid": 45
           },
@@ -2951,8 +2937,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 23.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.0,
-            "wind_deg": 247.0,
+            "wind_ms": 1.9,
+            "wind_deg": 249.0,
             "wind_dir": "서남서",
             "humid": 55
           },
@@ -2965,9 +2951,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.6,
-            "wind_deg": 256.0,
-            "wind_dir": "서남서",
+            "wind_ms": 1.5,
+            "wind_deg": 259.0,
+            "wind_dir": "서",
             "humid": 65
           },
           {
@@ -2979,8 +2965,22 @@ window.DASHBOARD_DATA = {
             "feels_like": 21.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.3,
+            "wind_ms": 1.2,
             "wind_deg": 261.0,
+            "wind_dir": "서",
+            "humid": 70
+          },
+          {
+            "time": "202605292300",
+            "hour": "23시",
+            "icon": "🌙",
+            "weather": "맑음",
+            "temp": 20.0,
+            "feels_like": 20.0,
+            "rain_mm": 0,
+            "rain_pop": 0,
+            "wind_ms": 1.1,
+            "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 70
           }
@@ -2992,22 +2992,22 @@ window.DASHBOARD_DATA = {
       "temp": 18.0,
       "weather": "맑음",
       "rain": 0,
-      "wind": 2.3,
-      "humid": 80,
+      "wind": 2.0,
+      "humid": 85,
       "level": "normal",
-      "vec": 290.0,
-      "tmax": null,
-      "tmin": null,
+      "vec": 287.0,
+      "tmax": 28.0,
+      "tmin": 15.0,
       "pop": 0,
       "detail": {
         "observation": {
           "pty": "0",
           "reh": 96,
           "rn1": 0.0,
-          "t1h": 17.0,
-          "vec": 135.0,
+          "t1h": 16.9,
+          "vec": 108.0,
           "wsd": 1.2,
-          "base_time": "22:00"
+          "base_time": "23:00"
         },
         "rain_cumul": {
           "1h": 0.0,
@@ -3015,37 +3015,23 @@ window.DASHBOARD_DATA = {
           "6h": 0.0,
           "12h": 0.0
         },
-        "wind_dir_name": "남동",
-        "feels_like": 17.0,
-        "tmax": null,
-        "tmin": null,
+        "wind_dir_name": "동남동",
+        "feels_like": 16.9,
+        "tmax": 28.0,
+        "tmin": 15.0,
         "pop": 0,
         "hourly": [
-          {
-            "time": "202605282300",
-            "hour": "23시",
-            "icon": "🌙",
-            "weather": "맑음",
-            "temp": 18.0,
-            "feels_like": 17.9,
-            "rain_mm": 0,
-            "rain_pop": 0,
-            "wind_ms": 2.3,
-            "wind_deg": 290.0,
-            "wind_dir": "서북서",
-            "humid": 80
-          },
           {
             "time": "202605290000",
             "hour": "0시",
             "icon": "🌙",
             "weather": "맑음",
             "temp": 18.0,
-            "feels_like": 17.9,
+            "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.2,
-            "wind_deg": 288.0,
+            "wind_ms": 2.0,
+            "wind_deg": 287.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -3058,8 +3044,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.1,
-            "wind_deg": 295.0,
+            "wind_ms": 2.0,
+            "wind_deg": 293.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -3072,8 +3058,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.9,
-            "wind_deg": 298.0,
+            "wind_ms": 1.7,
+            "wind_deg": 297.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -3086,7 +3072,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.7,
+            "wind_ms": 1.6,
             "wind_deg": 308.0,
             "wind_dir": "북서",
             "humid": 90
@@ -3100,8 +3086,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 15.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.6,
-            "wind_deg": 330.0,
+            "wind_ms": 1.5,
+            "wind_deg": 328.0,
             "wind_dir": "북북서",
             "humid": 90
           },
@@ -3114,8 +3100,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 15.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.9,
-            "wind_deg": 332.0,
+            "wind_ms": 1.7,
+            "wind_deg": 333.0,
             "wind_dir": "북북서",
             "humid": 90
           },
@@ -3128,8 +3114,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 15.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.0,
-            "wind_deg": 346.0,
+            "wind_ms": 1.9,
+            "wind_deg": 348.0,
             "wind_dir": "북북서",
             "humid": 90
           },
@@ -3156,7 +3142,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.0,
+            "wind_ms": 1.9,
             "wind_deg": 3.0,
             "wind_dir": "북",
             "humid": 85
@@ -3184,8 +3170,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 23.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.7,
-            "wind_deg": 357.0,
+            "wind_ms": 1.6,
+            "wind_deg": 0.0,
             "wind_dir": "북",
             "humid": 70
           },
@@ -3198,8 +3184,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.0,
-            "wind_deg": 337.0,
+            "wind_ms": 1.9,
+            "wind_deg": 339.0,
             "wind_dir": "북북서",
             "humid": 60
           },
@@ -3212,7 +3198,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
+            "wind_ms": 2.2,
             "wind_deg": 322.0,
             "wind_dir": "북서",
             "humid": 50
@@ -3223,10 +3209,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 26.0,
-            "feels_like": 25.8,
+            "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.6,
+            "wind_ms": 2.5,
             "wind_deg": 318.0,
             "wind_dir": "북서",
             "humid": 45
@@ -3237,10 +3223,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 25.7,
+            "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.8,
+            "wind_ms": 2.6,
             "wind_deg": 312.0,
             "wind_dir": "북서",
             "humid": 40
@@ -3251,10 +3237,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 26.9,
+            "feels_like": 27.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 3.0,
+            "wind_ms": 2.8,
             "wind_deg": 304.0,
             "wind_dir": "북서",
             "humid": 40
@@ -3265,11 +3251,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 27.1,
+            "feels_like": 27.2,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.7,
-            "wind_deg": 289.0,
+            "wind_ms": 2.6,
+            "wind_deg": 288.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -3296,8 +3282,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.5,
-            "wind_deg": 252.0,
+            "wind_ms": 2.4,
+            "wind_deg": 253.0,
             "wind_dir": "서남서",
             "humid": 45
           },
@@ -3310,8 +3296,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 23.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.3,
-            "wind_deg": 250.0,
+            "wind_ms": 2.2,
+            "wind_deg": 252.0,
             "wind_dir": "서남서",
             "humid": 55
           },
@@ -3324,9 +3310,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.9,
-            "wind_deg": 258.0,
-            "wind_dir": "서남서",
+            "wind_ms": 1.8,
+            "wind_deg": 261.0,
+            "wind_dir": "서",
             "humid": 60
           },
           {
@@ -3356,6 +3342,20 @@ window.DASHBOARD_DATA = {
             "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 70
+          },
+          {
+            "time": "202605292300",
+            "hour": "23시",
+            "icon": "🌙",
+            "weather": "맑음",
+            "temp": 18.0,
+            "feels_like": 18.0,
+            "rain_mm": 0,
+            "rain_pop": 0,
+            "wind_ms": 1.2,
+            "wind_deg": 270.0,
+            "wind_dir": "서",
+            "humid": 75
           }
         ]
       }
@@ -3365,22 +3365,22 @@ window.DASHBOARD_DATA = {
       "temp": 19.0,
       "weather": "맑음",
       "rain": 0,
-      "wind": 2.0,
+      "wind": 1.8,
       "humid": 80,
       "level": "normal",
-      "vec": 284.0,
-      "tmax": null,
-      "tmin": null,
+      "vec": 279.0,
+      "tmax": 29.0,
+      "tmin": 16.0,
       "pop": 0,
       "detail": {
         "observation": {
           "pty": "0",
-          "reh": 85,
+          "reh": 88,
           "rn1": 0.0,
-          "t1h": 17.9,
-          "vec": 180.0,
-          "wsd": 0.9,
-          "base_time": "22:00"
+          "t1h": 17.5,
+          "vec": 171.0,
+          "wsd": 1.2,
+          "base_time": "23:00"
         },
         "rain_cumul": {
           "1h": 0.0,
@@ -3389,25 +3389,11 @@ window.DASHBOARD_DATA = {
           "12h": 0.0
         },
         "wind_dir_name": "남",
-        "feels_like": 17.9,
-        "tmax": null,
-        "tmin": null,
+        "feels_like": 17.5,
+        "tmax": 29.0,
+        "tmin": 16.0,
         "pop": 0,
         "hourly": [
-          {
-            "time": "202605282300",
-            "hour": "23시",
-            "icon": "🌙",
-            "weather": "맑음",
-            "temp": 19.0,
-            "feels_like": 19.0,
-            "rain_mm": 0,
-            "rain_pop": 0,
-            "wind_ms": 2.0,
-            "wind_deg": 284.0,
-            "wind_dir": "서북서",
-            "humid": 80
-          },
           {
             "time": "202605290000",
             "hour": "0시",
@@ -3417,9 +3403,9 @@ window.DASHBOARD_DATA = {
             "feels_like": 19.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.9,
-            "wind_deg": 282.0,
-            "wind_dir": "서북서",
+            "wind_ms": 1.8,
+            "wind_deg": 279.0,
+            "wind_dir": "서",
             "humid": 80
           },
           {
@@ -3431,8 +3417,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.8,
-            "wind_deg": 289.0,
+            "wind_ms": 1.7,
+            "wind_deg": 286.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -3445,8 +3431,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.7,
-            "wind_deg": 301.0,
+            "wind_ms": 1.6,
+            "wind_deg": 300.0,
             "wind_dir": "서북서",
             "humid": 85
           },
@@ -3459,8 +3445,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 17.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.8,
-            "wind_deg": 304.0,
+            "wind_ms": 1.7,
+            "wind_deg": 306.0,
             "wind_dir": "북서",
             "humid": 85
           },
@@ -3473,8 +3459,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.6,
-            "wind_deg": 322.0,
+            "wind_ms": 1.5,
+            "wind_deg": 323.0,
             "wind_dir": "북서",
             "humid": 85
           },
@@ -3487,8 +3473,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.7,
-            "wind_deg": 329.0,
+            "wind_ms": 1.6,
+            "wind_deg": 330.0,
             "wind_dir": "북북서",
             "humid": 90
           },
@@ -3501,8 +3487,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 16.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.7,
-            "wind_deg": 336.0,
+            "wind_ms": 1.6,
+            "wind_deg": 338.0,
             "wind_dir": "북북서",
             "humid": 90
           },
@@ -3515,8 +3501,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 18.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.5,
-            "wind_deg": 349.0,
+            "wind_ms": 1.4,
+            "wind_deg": 352.0,
             "wind_dir": "북",
             "humid": 85
           },
@@ -3557,8 +3543,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.2,
-            "wind_deg": 342.0,
+            "wind_ms": 1.1,
+            "wind_deg": 345.0,
             "wind_dir": "북북서",
             "humid": 65
           },
@@ -3571,8 +3557,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.7,
-            "wind_deg": 333.0,
+            "wind_ms": 1.6,
+            "wind_deg": 335.0,
             "wind_dir": "북북서",
             "humid": 55
           },
@@ -3582,11 +3568,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 26.0,
-            "feels_like": 25.9,
+            "feels_like": 26.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.2,
-            "wind_deg": 324.0,
+            "wind_ms": 2.0,
+            "wind_deg": 325.0,
             "wind_dir": "북서",
             "humid": 50
           },
@@ -3596,10 +3582,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 27.0,
-            "feels_like": 26.6,
+            "feels_like": 26.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
+            "wind_ms": 2.3,
             "wind_deg": 320.0,
             "wind_dir": "북서",
             "humid": 45
@@ -3610,10 +3596,10 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 29.0,
-            "feels_like": 28.6,
+            "feels_like": 28.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
+            "wind_ms": 2.3,
             "wind_deg": 310.0,
             "wind_dir": "북서",
             "humid": 40
@@ -3624,11 +3610,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 29.0,
-            "feels_like": 28.6,
+            "feels_like": 28.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
-            "wind_deg": 300.0,
+            "wind_ms": 2.3,
+            "wind_deg": 301.0,
             "wind_dir": "서북서",
             "humid": 40
           },
@@ -3638,11 +3624,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 29.0,
-            "feels_like": 28.6,
+            "feels_like": 28.7,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
-            "wind_deg": 279.0,
+            "wind_ms": 2.3,
+            "wind_deg": 277.0,
             "wind_dir": "서",
             "humid": 40
           },
@@ -3652,11 +3638,11 @@ window.DASHBOARD_DATA = {
             "icon": "☀",
             "weather": "맑음",
             "temp": 28.0,
-            "feels_like": 27.3,
+            "feels_like": 27.4,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.4,
-            "wind_deg": 263.0,
+            "wind_ms": 2.3,
+            "wind_deg": 265.0,
             "wind_dir": "서",
             "humid": 40
           },
@@ -3669,8 +3655,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 25.9,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.5,
-            "wind_deg": 244.0,
+            "wind_ms": 2.4,
+            "wind_deg": 246.0,
             "wind_dir": "서남서",
             "humid": 45
           },
@@ -3683,8 +3669,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 24.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 2.1,
-            "wind_deg": 245.0,
+            "wind_ms": 2.0,
+            "wind_deg": 247.0,
             "wind_dir": "서남서",
             "humid": 50
           },
@@ -3697,7 +3683,7 @@ window.DASHBOARD_DATA = {
             "feels_like": 22.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.8,
+            "wind_ms": 1.7,
             "wind_deg": 257.0,
             "wind_dir": "서남서",
             "humid": 60
@@ -3711,8 +3697,8 @@ window.DASHBOARD_DATA = {
             "feels_like": 20.0,
             "rain_mm": 0,
             "rain_pop": 0,
-            "wind_ms": 1.4,
-            "wind_deg": 262.0,
+            "wind_ms": 1.3,
+            "wind_deg": 266.0,
             "wind_dir": "서",
             "humid": 65
           },
@@ -3729,6 +3715,20 @@ window.DASHBOARD_DATA = {
             "wind_deg": 270.0,
             "wind_dir": "서",
             "humid": 70
+          },
+          {
+            "time": "202605292300",
+            "hour": "23시",
+            "icon": "🌙",
+            "weather": "맑음",
+            "temp": 19.0,
+            "feels_like": 19.0,
+            "rain_mm": 0,
+            "rain_pop": 0,
+            "wind_ms": 1.0,
+            "wind_deg": 270.0,
+            "wind_dir": "서",
+            "humid": 75
           }
         ]
       }
@@ -3738,12 +3738,6 @@ window.DASHBOARD_DATA = {
   "rivers": [],
   "messages": [],
   "forecast": [
-    {
-      "time": "00시",
-      "icon": "🌙",
-      "temp": 18,
-      "rain": 0
-    },
     {
       "time": "01시",
       "icon": "🌙",
@@ -3809,76 +3803,82 @@ window.DASHBOARD_DATA = {
       "icon": "☀",
       "temp": 24,
       "rain": 0
+    },
+    {
+      "time": "12시",
+      "icon": "☀",
+      "temp": 25,
+      "rain": 0
     }
   ],
   "pm": [
     {
       "region": "의정부",
-      "pm10": 37,
-      "pm25": 31,
+      "pm10": 45,
+      "pm25": 30,
       "grade": "normal",
       "gradeText": "보통"
     },
     {
       "region": "양주",
-      "pm10": 46,
-      "pm25": 24,
+      "pm10": 55,
+      "pm25": 34,
       "grade": "normal",
       "gradeText": "보통"
     },
     {
       "region": "동두천",
-      "pm10": 35,
-      "pm25": 15,
+      "pm10": 30,
+      "pm25": 19,
       "grade": "normal",
       "gradeText": "보통"
     },
     {
       "region": "포천",
       "pm10": 48,
-      "pm25": 23,
+      "pm25": 26,
       "grade": "normal",
       "gradeText": "보통"
     },
     {
       "region": "연천",
-      "pm10": 16,
-      "pm25": 22,
+      "pm10": 23,
+      "pm25": 21,
       "grade": "normal",
       "gradeText": "보통"
     },
     {
       "region": "가평",
-      "pm10": 22,
-      "pm25": 16,
+      "pm10": 33,
+      "pm25": 27,
       "grade": "normal",
       "gradeText": "보통"
     },
     {
       "region": "남양주",
-      "pm10": 40,
-      "pm25": 22,
+      "pm10": 39,
+      "pm25": 26,
       "grade": "normal",
       "gradeText": "보통"
     },
     {
       "region": "구리",
-      "pm10": 41,
-      "pm25": 28,
+      "pm10": 46,
+      "pm25": 20,
       "grade": "normal",
       "gradeText": "보통"
     },
     {
       "region": "파주",
-      "pm10": 32,
-      "pm25": 18,
+      "pm10": 37,
+      "pm25": 23,
       "grade": "normal",
       "gradeText": "보통"
     },
     {
       "region": "고양",
-      "pm10": 37,
-      "pm25": 29,
+      "pm10": 46,
+      "pm25": 33,
       "grade": "normal",
       "gradeText": "보통"
     }
@@ -3908,6 +3908,30 @@ window.DASHBOARD_DATA = {
   "bulletins": {
     "warnings_full": [],
     "info_list": [
+      {
+        "title": "[정보] 제05-125호 : 2026.05.27.07:00",
+        "tmFc": "202605270700",
+        "tmFc_display": "2026-05-27 07:00",
+        "seq": 125
+      },
+      {
+        "title": "[정보] 제05-124호 : 2026.05.27.06:10",
+        "tmFc": "202605270610",
+        "tmFc_display": "2026-05-27 06:10",
+        "seq": 124
+      },
+      {
+        "title": "[정보] 제05-123호 : 2026.05.27.06:00",
+        "tmFc": "202605270600",
+        "tmFc_display": "2026-05-27 06:00",
+        "seq": 123
+      },
+      {
+        "title": "[정보] 제05-122호 : 2026.05.26.22:10",
+        "tmFc": "202605262210",
+        "tmFc_display": "2026-05-26 22:10",
+        "seq": 122
+      },
       {
         "title": "[정보] 제05-121호 : 2026.05.26.18:40",
         "tmFc": "202605261840",
@@ -3943,30 +3967,6 @@ window.DASHBOARD_DATA = {
         "tmFc": "202605260600",
         "tmFc_display": "2026-05-26 06:00",
         "seq": 116
-      },
-      {
-        "title": "[정보] 제05-115호 : 2026.05.25.20:40",
-        "tmFc": "202605252040",
-        "tmFc_display": "2026-05-25 20:40",
-        "seq": 115
-      },
-      {
-        "title": "[정보] 제05-114호 : 2026.05.25.18:00",
-        "tmFc": "202605251800",
-        "tmFc_display": "2026-05-25 18:00",
-        "seq": 114
-      },
-      {
-        "title": "[정보] 제05-113호 : 2026.05.25.06:00",
-        "tmFc": "202605250600",
-        "tmFc_display": "2026-05-25 06:00",
-        "seq": 113
-      },
-      {
-        "title": "[정보] 제05-112호 : 2026.05.25.05:40",
-        "tmFc": "202605250540",
-        "tmFc_display": "2026-05-25 05:40",
-        "seq": 112
       }
     ]
   }
